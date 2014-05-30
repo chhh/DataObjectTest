@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: umich.ms.filesupport
+OpenIDE-Module-Layer: umich/ms/filesupport/layer.xml
+OpenIDE-Module-Localizing-Bundle: umich/ms/filesupport/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
