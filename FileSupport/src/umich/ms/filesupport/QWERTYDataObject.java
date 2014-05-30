@@ -74,6 +74,17 @@ public class QWERTYDataObject extends MultiDataObject {
         return 1;
     }
 
+    /**
+     * @deprecated 
+     * This override is not needed, since {@link #associateLookup() }
+     * returns 1 and {@link MultiDataObject#getLookup() } returns exactly
+     * getCookieSet().getLookup() if associateLookup() returns 1.
+     */
+    @Override
+    public Lookup getLookup() {
+        return getCookieSet().getLookup();
+    }
+
     @MultiViewElement.Registration(
             displayName = "#LBL_QWERTY_EDITOR",
             iconBase = "umich/ms/filesupport/spectrum_viewer_icon.gif",

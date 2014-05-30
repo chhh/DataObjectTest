@@ -1,2 +1,4 @@
 **/build
 **/dist
+/FileSupport/nbproject/private/
+/LookupViewer/nbproject/private/
